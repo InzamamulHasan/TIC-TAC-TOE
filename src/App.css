@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  background-color: rgb(26, 71, 69);
+}
+.cont{
+  width: 500px;
+  background-color: black;
+  margin: auto;
+  text-align: center;
+  color: aliceblue;
+  margin-top: 50px;
+}
+
+.grid>div{
+  padding: 10px;
+  background-color: aqua;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.grid{
+  margin-left: 90px;
+  margin-right: 90px;
+  display: grid;
+  grid-template-columns: repeat(3,100px);
+  grid-template-rows:repeat(3,100px);
+  grid-gap:10px;
+}
+
+.icon{
+  font-size: 30px;
+  color: rgb(41, 41, 24);
+}
+.cir{
+  color: rgb(122, 187, 187);
+  font-size: 30px;
+}
+.cx{
+  color: rgb(187, 47, 101);
+  font-size: 40px;
+}
+button{
+  background-color: brown;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  color: aliceblue;
+  margin: 5px;
+}
+button:hover{
+  cursor: pointer;
+  background-color: rgb(94, 255, 0);
+  
+}
+.grid>div:hover{
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid goldenrod;
+}
+.status{
+  color: greenyellow;
+}
